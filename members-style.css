@@ -1,0 +1,319 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "candara";
+}
+
+body {
+    background-color: #000000;
+}
+
+header {
+    border-bottom: solid 1px #ffffff;
+}
+
+.navbar {
+    padding: 0px 15px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-navbar {
+    padding: 0px 15px;
+    flex: 1;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.logo-image {
+    padding: 15px;
+}
+
+.logo-text {
+    font-size: 40px;
+    color: #ffffff;
+    padding: 15px;
+}
+
+.menu-navbar {
+    padding: 0px 15px;
+    flex: 1;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.band-navbar {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.band-navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px;
+    border: ridge 2px transparent;
+}
+
+.band-navbar a:hover {
+    border: solid 2px #ffffff;
+    border-radius: 10px;
+    background-color: #000000;
+    cursor: pointer;
+}
+
+.members-navbar {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.members-navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px;
+    border: ridge 2px transparent;
+}
+
+.members-navbar a:hover {
+    border: solid 2px #ffffff;
+    border-radius: 10px;
+    background-color: #000000;
+    cursor: pointer;
+}
+
+.musics-navbar {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.musics-navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px;
+    border: ridge 2px transparent;
+}
+
+.musics-navbar a:hover {
+    border: solid 2px #ffffff;
+    border-radius: 10px;
+    background-color: #000000;
+    cursor: pointer;
+}
+
+.icon-navbar {
+    padding: 15px;
+    color: #ffffff
+}
+
+.icon-navbar:hover {
+    cursor: pointer;
+}
+
+.material-icons {
+    padding: 15px;
+}
+
+.members {
+    padding: 30px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.axl {
+    padding: 15px;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.axl img {
+    padding: 15px;
+}
+
+.axl-title {
+    padding: 10px;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.axl-text {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.axl-text p {
+    padding: 5px;
+}
+
+.slash {
+    padding: 15px;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.slash img {
+    padding: 15px;
+}
+
+.slash-title {
+    padding: 10px;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.slash-text {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.slash-text p {
+    padding: 5px;
+}
+
+.duff {
+    padding: 15px;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.duff img {
+    padding: 15px;
+}
+
+.duff-title {
+    padding: 10px;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.duff-text {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.duff-text p {
+    padding: 5px;
+}
+
+.izzy {
+    padding: 15px;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.izzy img {
+    padding: 15px;
+}
+
+.izzy-title {
+    padding: 10px;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.izzy-text {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.izzy-text p {
+    padding: 5px;
+}
+
+.steve {
+    padding: 15px;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.steve img {
+    padding: 15px;
+}
+
+.steve-title {
+    padding: 10px;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.steve-text {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.steve-text p {
+    padding: 5px;
+}
+
+footer {
+    border-top: solid 1px #ffffff;
+}
+
+.social-networks {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.facebook {
+    padding: 0px 10px 0px 0px;
+}
+
+.twitter {
+    padding: 0pc 10px 0px 0px;
+}
+
+.instagram {
+    padding: 0px 10px 0px 0px;
+}
+
+.spotify {
+    padding: 0px 0px 0px 10px;
+}
+
+.informations {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first-info {
+    color: #ffffff;
+    font-size: 13px;
+}
+
+.second-info {
+    color: #ffffff;
+    font-size: 13px;
+}
+
+.copyright {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.authority {
+    font-size: 13px;
+    color: #777777;
+}
